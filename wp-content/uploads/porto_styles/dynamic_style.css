@@ -261,11 +261,11 @@ ul.comments .comment-block, .pricing-table .plan, .tabs-navigation, .toggle > la
 .thumb-info .share-links a:hover {opacity: .9;}
 .post-share-advance .share-links a {background: none;}
 .thumb-info .thumb-info-wrapper:after {background: rgba(33,37,41,.8);}
-.dir-arrow {background: transparent url("http://OFFLINEZIP.wpshowp-content/themes/porto/images/arrows.png") no-repeat 0 0;}
-.dir-arrow.arrow-light {background: transparent url("http://OFFLINEZIP.wpshowp-content/themes/porto/images/arrows-dark.png") no-repeat 0 0;}
+.dir-arrow {background: transparent url("wp-content/themes/porto/images/arrows.png") no-repeat 0 0;}
+.dir-arrow.arrow-light {background: transparent url("wp-content/themes/porto/images/arrows-dark.png") no-repeat 0 0;}
 hr, .divider, .slider-title .line, .section-title .line, .vc_separator .vc_sep_holder.vc_sep_holder_l .vc_sep_line, .vc_separator .vc_sep_holder.vc_sep_holder_r .vc_sep_line {background: rgba(0,0,0,.08);}
 hr.light {background: rgba(255,255,255,.06);}
-.porto-history .thumb {background: transparent url("http://OFFLINEZIP.wpshowp-content/themes/porto/images/history-thumb.png") no-repeat 0 0;}
+.porto-history .thumb {background: transparent url("wp-content/themes/porto/images/history-thumb.png") no-repeat 0 0;}
 #header.sticky-header .header-main.sticky, #header.sticky-header .main-menu-wrap, .fixed-header #header.sticky-header .main-menu-wrap {box-shadow: 0 1px 0 0 rgba(0,0,0,.06);}
 #mini-cart .cart-popup .widget_shopping_cart_content {background: #fff;}
 .mega-menu li.menu-item > a > .thumb-info-preview .thumb-info-wrapper, .sidebar-menu li.menu-item > a > .thumb-info-preview .thumb-info-wrapper {background: #fff;}
