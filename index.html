@@ -15,7 +15,7 @@
 		media="all">
 	<link rel="stylesheet" id="wp-block-library-theme-css" href="wp-includes/css/dist/block-library/theme.min.css"
 		media="all">
-	
+
 	<link rel="stylesheet" id="js_composer_front-css"
 		href="wp-content/plugins/js_composer/assets/css/js_composer.min.css" media="all">
 	<link rel="stylesheet" id="bootstrap-css" href="wp-content/uploads/porto_styles/bootstrap.css" media="all">
@@ -83,9 +83,11 @@
 		.sticky-header .header-main.sticky {
 			border-top: 3px solid #ededed
 		}
+
 		.page-top .page-title-wrap {
 			line-height: 0
 		}
+
 		.page-top .page-title:not(.b-none):after {
 			content: '';
 			position: absolute;
@@ -212,10 +214,12 @@
 						.vc_custom_1590521967018 {
 							background-color: #0e0f23 !important;
 						}
+
 						.canvas {
 							height: 652px;
 							width: 1100px;
 						}
+
 						.main-title {
 							position: absolute;
 							margin: 0;
@@ -266,6 +270,94 @@
 
 		</div>
 	</div>
+
+
+	<style>
+		.modal.fade:not(.in).right .modal-dialog {
+			-webkit-transform: translate3d(0, 0, 0);
+			transform: translate3d(0, 0, 0);
+		}
+
+		.close {
+			position: absolute;
+			right: 7px;
+			top: 2px;
+		}
+	</style>
+
+
+
+
+	<div class="modal" id="myModal">
+		<div class="modal-dialog">
+			<div class="modal-content">
+
+				<!-- Modal Header -->
+				<a type="button" class="close" data-dismiss="modal">&times;</a>
+
+
+				<!-- Modal body -->
+				<div class="modal-body">
+					<div class="container">
+						<h2>Reach Us !</h2>
+						<form action="/action_page.php" class="needs-validation" novalidate>
+							<div class="form-group">
+								<label for="name">Name:</label>
+								<input type="text" class="form-control" id="uname" placeholder="Enter Your Name !"
+									name="name" required>
+								<div class="valid-feedback">Valid.</div>
+								<div class="invalid-feedback">Please fill out this field.</div>
+							</div>
+							<div class="form-group">
+								<label for="email">Email Id:</label>
+								<input type="email" class="form-control" id="email" placeholder="Enter Your Email Id !"
+									name="email" required>
+								<div class="valid-feedback">Valid.</div>
+								<div class="invalid-feedback">Please fill out this field.</div>
+							</div>
+							<div class="form-group">
+								<label for="number">Contact Number:</label>
+								<input type="phone" class="form-control" id="phone" placeholder="Enter Your Phone Number !"
+									name="phone" required>
+								<div class="valid-feedback">Valid.</div>
+								<div class="invalid-feedback">Please fill out this field.</div>
+							</div>
+							<div class="form-group">
+								<label for="number">Message :</label>
+								<textarea class="form-control" rows="5" id="comment" placeholder="Enter Your Message !" required></textarea>
+								<div class="valid-feedback">Valid.</div>
+								<div class="invalid-feedback">Please fill out this field.</div>
+							</div>
+							<div class="form-group form-check">
+								<label class="form-check-label">
+									<input class="form-check-input" type="checkbox" name="remember" required> I agree on
+									crown.
+									<div class="valid-feedback">Valid.</div>
+									<div class="invalid-feedback">Check this checkbox to continue.</div>
+								</label>
+							</div>
+							<button type="submit" class="btn btn-primary">Submit</button>
+						</form>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<script>
+		var modal = document.getElementById('myModal');
+
+		window.onload = function () {
+			setTimeout(function () {
+				modal.style.display = "block";
+			}, 1000);
+		}
+		jQuery(".close").click(function () {
+			jQuery(".modal").css("display", "none");
+		});
+	</script>
+
 	<script type="text/html" id="wpb-modifications"></script>
 	<script>
 		jQuery(window).on("load", function () {
