@@ -9,21 +9,19 @@
 	<link rel="apple-touch-icon" sizes="120x120" href="">
 	<link rel="apple-touch-icon" sizes="76x76" href="">
 	<link rel="apple-touch-icon" sizes="152x152" href="">
-	<title>Crown Studio – Just another WordPress site</title>
-
+	<title>Crown Studio – The Complete Home Solution</title>
 	<link rel="stylesheet" id="wp-block-library-css" href="wp-includes/css/dist/block-library/style.min.css"
 		media="all">
 	<link rel="stylesheet" id="wp-block-library-theme-css" href="wp-includes/css/dist/block-library/theme.min.css"
 		media="all">
 
-	<link rel="stylesheet" id="js_composer_front-css"
-		href="wp-content/plugins/js_composer/assets/css/js_composer.min.css" media="all">
 	<link rel="stylesheet" id="bootstrap-css" href="wp-content/uploads/porto_styles/bootstrap.css" media="all">
 	<link rel="stylesheet" id="porto-plugins-css" href="wp-content/themes/porto/css/plugins.css" media="all">
 	<link rel="stylesheet" id="porto-theme-css" href="wp-content/themes/porto/css/theme.css" media="all">
 	<link rel="stylesheet" id="porto-shortcodes-css" href="wp-content/themes/porto/css/shortcodes.css" media="all">
 	<link rel="stylesheet" id="porto-dynamic-style-css" href="wp-content/uploads/porto_styles/dynamic_style.css"
 		media="all">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 	<link rel="stylesheet" id="porto-style-css" href="wp-content/themes/porto/style.css" media="all">
 	<style id="porto-style-inline-css">
 		#header {
@@ -50,11 +48,6 @@
 
 		#header .main-menu>li.menu-item {
 			margin: 0px 17px 0 0 !important;
-		}
-
-		#header .logo,
-		.side-header-narrow-bar-logo {
-			max-width: 170px
 		}
 
 		@media (min-width:1170px) {
@@ -84,36 +77,50 @@
 			border-top: 3px solid #ededed
 		}
 
-		.page-top .page-title-wrap {
-			line-height: 0
-		}
 
-		.page-top .page-title:not(.b-none):after {
-			content: '';
-			position: absolute;
-			width: 100%;
-			left: 0;
-			border-bottom: 5px solid #fb9900;
-			bottom: -32px
-		}
-
-		.footer-top {
-			background-attachment: inherit !important;
-			background-position: center bottom !important
-		}
 
 		.header-wrapper #header {
 			width: 100%;
 			bottom: 0
 		}
+
+		.vc_custom_1590521967018 {
+			background-color: #0e0f23 !important;
+		}
+
+		.main-title {
+			position: absolute;
+			margin: 0;
+			padding: 0;
+			color: #F9F1E9;
+			text-align: center;
+			top: 50%;
+			left: 50%;
+			-webkit-transform: translate3d(-50%, -50%, 0);
+			transform: translate3d(-50%, -50%, 0);
+		}
+
+		.wpb_button,
+		.wpb_content_element,
+		ul.wpb_thumbnails-fluid>li {
+			margin-bottom: 0px;
+		}
+
+		.modal.fade:not(.in).right .modal-dialog {
+			-webkit-transform: translate3d(0, 0, 0);
+			transform: translate3d(0, 0, 0);
+		}
+
+		.close {
+			position: absolute;
+			right: 7px;
+			top: 2px;
+		}
 	</style>
 	<script src="wp-includes/js/jquery/jquery.js"></script>
 	<script src="wp-includes/js/jquery/jquery-migrate.min.js"></script>
 </head>
-
-<body
-	class="home page-template-default page page-id-9 wp-embed-responsive full blog-1  wpb-js-composer js-comp-ver-6.1 vc_responsive">
-
+<body class="home">
 	<div class="page-wrapper">
 		<div class="header-wrapper fixed-header">
 			<header id="header" class="header-builder">
@@ -137,9 +144,6 @@
 								<li id="nav-menu-item-176"
 									class="menu-item menu-item-type-post_type menu-item-object-page narrow"><a
 										href="branches/index.html">Branches</a></li>
-								<li id="nav-menu-item-180"
-									class="menu-item menu-item-type-post_type menu-item-object-page narrow"><a
-										href="tour/index.html">Tour</a></li>
 								<li id="nav-menu-item-177"
 									class="menu-item menu-item-type-post_type menu-item-object-page narrow"><a
 										href="how-it-works/index.html">How It Works</a></li>
@@ -190,9 +194,6 @@
 										<li id="accordion-menu-item-176"
 											class="menu-item menu-item-type-post_type menu-item-object-page"><a
 												href="branches/index.html">Branches</a></li>
-										<li id="accordion-menu-item-180"
-											class="menu-item menu-item-type-post_type menu-item-object-page"><a
-												href="tour/index.html">Tour</a></li>
 										<li id="accordion-menu-item-177"
 											class="menu-item menu-item-type-post_type menu-item-object-page"><a
 												href="how-it-works/index.html">How It Works</a></li>
@@ -207,144 +208,17 @@
 				</div>
 			</header>
 		</div>
-		<div id="main" class="column1 boxed no-breadcrumbs">
-			<div id="content-top">
-				<div class="porto-block">
-					<style>
-						.vc_custom_1590521967018 {
-							background-color: #0e0f23 !important;
-						}
-
-						.canvas {
-							height: 652px;
-							width: 1100px;
-						}
-
-						.main-title {
-							position: absolute;
-							margin: 0;
-							padding: 0;
-							color: #F9F1E9;
-							text-align: center;
-							top: 50%;
-							left: 50%;
-							-webkit-transform: translate3d(-50%, -50%, 0);
-							transform: translate3d(-50%, -50%, 0);
-						}
-					</style>
-					<div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true"
-						class="vc_row wpb_row row vc_custom_1590521967018 text-center vc_row-has-fill vc_row-no-padding vc_row-o-content-middle vc_row-flex">
-						<div class="vc_column_container col-md-12 text-center">
-							<div class="wpb_wrapper vc_column-inner">
-								<div class="wpb_raw_code wpb_content_element wpb_raw_html">
-									<div class="wpb_wrapper">
-										<link rel="stylesheet"
-											href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-
-										<div class="container demo">
-											<div class="content">
-												<div id="large-header" class="large-header">
-													<canvas id="demo-canvas"></canvas>
-													<img class="main-title"
-														src="wp-content/uploads/2020/05/NEW-CROWN-LOGO.png">
-												</div>
-											</div>
-										</div>
-
-										<script
-											src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/TweenLite.min.js">
-										</script>
-										<script
-											src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/EasePack.min.js">
-										</script>
-										<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo.js">
-										</script>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="vc_row-full-width vc_clearfix"></div>
-				</div>
-			</div>
-
-		</div>
-	</div>
-
-
-	<style>
-		.modal.fade:not(.in).right .modal-dialog {
-			-webkit-transform: translate3d(0, 0, 0);
-			transform: translate3d(0, 0, 0);
-		}
-
-		.close {
-			position: absolute;
-			right: 7px;
-			top: 2px;
-		}
-	</style>
-
-
-
-
-	<div class="modal" id="myModal">
-		<div class="modal-dialog">
-			<div class="modal-content">
-
-				<!-- Modal Header -->
-				<a type="button" class="close" data-dismiss="modal">&times;</a>
-
-
-				<!-- Modal body -->
-				<div class="modal-body">
-					<div class="container">
-						<h2>Reach Us !</h2>
-						<form action="#" class="needs-validation" novalidate>
-							<div class="form-group">
-								<label for="name">Name:</label>
-								<input type="text" class="form-control" id="uname" placeholder="Enter Your Name !"
-									name="name" required>
-								<div class="valid-feedback">Valid.</div>
-								<div class="invalid-feedback">Please fill out this field.</div>
-							</div>
-							<div class="form-group">
-								<label for="email">Email Id:</label>
-								<input type="email" class="form-control" id="email" placeholder="Enter Your Email Id !"
-									name="email" required>
-								<div class="valid-feedback">Valid.</div>
-								<div class="invalid-feedback">Please fill out this field.</div>
-							</div>
-							<div class="form-group">
-								<label for="number">Contact Number:</label>
-								<input type="phone" class="form-control" id="phone" placeholder="Enter Your Phone Number !"
-									name="phone" required>
-								<div class="valid-feedback">Valid.</div>
-								<div class="invalid-feedback">Please fill out this field.</div>
-							</div>
-							<div class="form-group">
-								<label for="number">Message :</label>
-								<textarea class="form-control" rows="5" id="comment" placeholder="Enter Your Message !" required></textarea>
-								<div class="valid-feedback">Valid.</div>
-								<div class="invalid-feedback">Please fill out this field.</div>
-							</div>
-							<div class="form-group form-check">
-								<label class="form-check-label">
-									<input class="form-check-input" type="checkbox" name="remember" required> I agree on
-									to share my details with crown.
-									<div class="valid-feedback">Valid.</div>
-									<div class="invalid-feedback">Check this checkbox to continue.</div>
-								</label>
-							</div>
-							<button type="submit" class="btn btn-primary">Submit</button>
-						</form>
+		<div class="vc_custom_1590521967018">
+			<div class="container demo">
+				<div class="content">
+					<div id="large-header">
+						<canvas id="demo-canvas"></canvas>
+						<img class="main-title" src="wp-content/uploads/2020/05/NEW-CROWN-LOGO-1.png">
 					</div>
 				</div>
-
 			</div>
 		</div>
 	</div>
-
 	<script>
 		var modal = document.getElementById('myModal');
 
@@ -356,10 +230,7 @@
 		jQuery(".close").click(function () {
 			jQuery(".modal").css("display", "none");
 		});
-	</script>
 
-	<script type="text/html" id="wpb-modifications"></script>
-	<script>
 		jQuery(window).on("load", function () {
 			console.log("reached");
 			jQuery("button").removeClass("mfp-close");
@@ -369,18 +240,20 @@
 			jQuery('button').removeClass('mfp-close');
 		});
 	</script>
-	<script src="wp-content/themes/porto/inc/lib/live-search/live-search.js"></script>
-	<script src="wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js"></script>
-	<script src="wp-content/themes/porto/js/libs/popper.min.js"></script>
+	<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/TweenLite.min.js"> </script>
+	<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/EasePack.min.js"> </script>
+	<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo.js"> </script>
+	<!-- <script src="wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js"></script>
+	<script src="wp-content/themes/porto/js/libs/popper.min.js"></script> -->
 	<script src="wp-content/themes/porto/js/bootstrap.js"></script>
-	<script src="wp-content/themes/porto/js/libs/jquery.cookie.min.js"></script>
+	<!-- <script src="wp-content/themes/porto/js/libs/jquery.cookie.min.js"></script>
 	<script src="wp-content/themes/porto/js/libs/owl.carousel.min.js"></script>
 	<script src="wp-content/themes/porto/js/libs/jquery.appear.min.js"></script>
 	<script src="wp-content/themes/porto/js/libs/jquery.fitvids.min.js"></script>
 	<script src="wp-content/themes/porto/js/libs/jquery.matchHeight.min.js"></script>
 	<script async="async" src="wp-content/themes/porto/js/libs/modernizr.js"></script>
 	<script async="async" src="wp-content/themes/porto/js/libs/jquery.magnific-popup.min.js"></script>
-	<script src="wp-content/themes/porto/js/libs/jquery.waitforimages.min.js"></script>
+	<script src="wp-content/themes/porto/js/libs/jquery.waitforimages.min.js"></script> -->
 	<script>
 		var js_porto_vars = {
 			"rtl": "",
@@ -431,9 +304,5 @@
 		};
 	</script>
 	<script src="wp-content/themes/porto/js/theme.js"></script>
-	<script>
-		jQuery(document).ready(function () {});
-	</script>
 </body>
-
 </html>
